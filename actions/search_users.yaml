@@ -1,0 +1,11 @@
+---
+name: search_users
+runner_type: python-script
+description: search JIRA for particular user string.
+enabled: true
+entry_point: search_users.py
+parameters:
+  user:
+    type: string
+    description: Username to search the jira for.
+    required: true
